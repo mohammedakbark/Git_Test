@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gittest/akbar.dart';
+import 'package:gittest/rasim.dart';
 
 class minhalscreen extends StatelessWidget {
   const minhalscreen({super.key});
@@ -13,11 +14,11 @@ class minhalscreen extends StatelessWidget {
             Text("Minhal"),
             ElevatedButton(
                 onPressed: () {
-                  // Navigator.push(
-                  //     context,
-                  //     MaterialPageRoute(
-                  //       builder: (context) => AkbarPage(),
-                      // ));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => screenRasim(),
+                      ));
                 },
                 child: Text("nextpage"))
           ],
