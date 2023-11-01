@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gittest/akbar.dart';
 import 'package:gittest/rasim.dart';
 
 class minhalscreen extends StatelessWidget {
