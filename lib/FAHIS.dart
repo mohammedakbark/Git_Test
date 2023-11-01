@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gittest/adhil.dart';
 
 class FahisPage extends StatelessWidget {
   const FahisPage({super.key});
@@ -11,7 +12,12 @@ class FahisPage extends StatelessWidget {
       body: Column(
         children: [
           Text("Fahis"),
-          ElevatedButton(onPressed: () {}, child: Text("Next Page"))
+          ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Adhilpage()));
+              },
+              child: Text("Next Page"))
         ],
       ),
     ));
