@@ -10,10 +10,11 @@ class AkbarPage extends StatefulWidget {
 class _AkbarPageState extends State<AkbarPage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       body: Column(mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("akbar page")
+     const     Text("akbar page"),
+          TextButton(onPressed: (){}, child:const Text("go to next page"))
         ],
       ),
     );
