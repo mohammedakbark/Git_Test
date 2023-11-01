@@ -1,5 +1,7 @@
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gittest/irshad.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 
@@ -42,7 +44,7 @@ class _PageNiyasState extends State<PageNiyas> {
               ),
               ElevatedButton(
                   onPressed: () {
-                    // Navigator.push(context, CupertinoPageRoute(builder: (context)=>))
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>const ScreenIrshad()));
                   },
                   child: Text(
                     "Go to next page",
