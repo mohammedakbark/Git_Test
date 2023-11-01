@@ -14,7 +14,9 @@ class _AkbarPageState extends State<AkbarPage> {
       body: Column(mainAxisAlignment: MainAxisAlignment.center,
         children: [
      const     Text("akbar page"),
-          TextButton(onPressed: (){}, child:const Text("go to next page"))
+          TextButton(onPressed: (){
+          
+          }, child:const Text("go to next page"))
         ],
       ),
     );
