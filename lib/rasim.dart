@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gittest/bharath.dart';
 
 class screenRasim extends StatefulWidget {
   const screenRasim({super.key});
@@ -15,7 +16,15 @@ class _screenRasimState extends State<screenRasim> {
       body: Column(
         children: [
           Text("rasim page"),
-          TextButton(onPressed: () {}, child: Text("next page"))
+          TextButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Screenbharath(),
+                    ));
+              },
+              child: Text("next page"))
         ],
       ),
     );
