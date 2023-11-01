@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:gittest/niyas.dart';
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -63,7 +64,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 30, right: 30),
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>PageNiyas()));
+                      },
                       style: ButtonStyle(
                           shape:
                               MaterialStateProperty.all<RoundedRectangleBorder>(
