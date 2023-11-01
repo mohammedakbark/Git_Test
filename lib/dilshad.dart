@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gittest/swalih_main.dart';
 
 class ScreenDilshad extends StatelessWidget {
   const ScreenDilshad({super.key});
@@ -11,7 +12,7 @@ class ScreenDilshad extends StatelessWidget {
         children: [
           Center(child: Text('dilshad\'s page')),
           ElevatedButton(onPressed: (){
-            // Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>MyHomePage()));
           }, child: Text('new page'))
         ],
       ),
