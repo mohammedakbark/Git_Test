@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:gittest/login_Screen.dart';
-import 'package:gittest/niyas.dart';
 
 void main() {
   runApp(const MyApp());
