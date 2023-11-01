@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gittest/akbar.dart';
+import 'package:gittest/yadhu.dart';
 
 class Screenbharath extends StatelessWidget {
   const Screenbharath({super.key});
@@ -13,7 +14,7 @@ class Screenbharath extends StatelessWidget {
           children: [
             Text("bharath"),
             ElevatedButton(onPressed: (){
-              // Navigator.push(context, MaterialPageRoute(builder: (context) => AkbarPage(),));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => ScreenYadhu(),));
             }, child: Text("nextpage"))
           ],
         ),
