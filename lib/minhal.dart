@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gittest/akbar.dart';
 
-class ScreenIrshad extends StatelessWidget {
-  const ScreenIrshad({super.key});
+class minhalscreen extends StatelessWidget {
+  const minhalscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
