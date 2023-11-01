@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gittest/FAHIS.dart';
 
 class AkbarPage extends StatefulWidget {
   const AkbarPage({super.key});
@@ -15,6 +16,8 @@ class _AkbarPageState extends State<AkbarPage> {
         children: [
      const     Text("akbar page"),
           TextButton(onPressed: (){
+              Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => FahisPage()));
           
           }, child:const Text("go to next page"))
         ],

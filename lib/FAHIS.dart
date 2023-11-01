@@ -14,8 +14,7 @@ class FahisPage extends StatelessWidget {
           Text("Fahis"),
           ElevatedButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => AkbarPage()));
+              
               },
               child: Text("Next Page"))
         ],
