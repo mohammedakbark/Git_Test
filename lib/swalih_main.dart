@@ -23,7 +23,9 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
 Text('MInhal'),
-                    Text("niyas")
+                    Text("niyas"),
+                    Text("niyas"),
+                    Text("irshad")
 
 
 
