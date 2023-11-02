@@ -1,6 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:gittest/niyas.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -21,10 +20,16 @@ class _MyHomePageState extends State<MyHomePage> {
             height: MediaQuery.of(context).size.height,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            
               children: [
                 Text('dilshad',style: TextStyle(fontSize: 22),),
 
-                    Text("niyas")
+                    Text("niyas"),
+Text('MInhal'),
+                    Text("niyas"),
+                    Text("niyas"),
+                    Text("irshad"),
+                    Text("akbar")
 
 
 
