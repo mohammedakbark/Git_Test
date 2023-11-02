@@ -23,12 +23,20 @@ class _MyHomePageState extends State<MyHomePage> {
             
               children: [
                 Text('niyas',style: TextStyle(fontSize: 22),),
+                Text('yadhu',style: TextStyle(fontSize: 22),),
 
                     Text("niyas"),
-Text('MInhal'),
+                    Text('MInhal'),
                   
                     Text("irshad"),
-                    Text("akbar")
+                    Text("akbar"),
+                  
+                    Text("Yadhu"),
+                    Text('ADHILKONNOLA'),
+                    Text('itZZ meH swAliH'),
+
+                    Text("rashim")
+                    
 
 
 
