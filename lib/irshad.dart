@@ -6,16 +6,18 @@ class ScreenIrshad extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-      body: Center(
-        child: Column(
-          children: [
-            Text("irshad"),
-            ElevatedButton(onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => AkbarPage(),));
-            }, child: Text("nextpage"))
-          ],
+    return SafeArea(
+      child: Scaffold(
+    
+        body: Center(
+          child: Column(
+            children: [
+              Text("irshad"),
+              ElevatedButton(onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => AkbarPage(),));
+              }, child: Text("nextpage"))
+            ],
+          ),
         ),
       ),
     );
