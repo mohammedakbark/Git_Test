@@ -1,6 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:gittest/niyas.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -11,8 +10,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    var passwordController = TextEditingController();
-    var userNameController = TextEditingController();
+    // var passwordController = TextEditingController();
+    // var userNameController = TextEditingController();
     return Scaffold(
       body: SingleChildScrollView(
         child: SafeArea(
@@ -21,8 +20,15 @@ class _MyHomePageState extends State<MyHomePage> {
             height: MediaQuery.of(context).size.height,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            
               children: [
+                Text('dilshad',style: TextStyle(fontSize: 22),),
 
+                    Text("niyas"),
+Text('MInhal'),
+                    Text("niyas"),
+                    Text("irshad"),
+                    Text("akbar")
 
 
 
