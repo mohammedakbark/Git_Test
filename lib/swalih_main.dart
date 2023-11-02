@@ -22,12 +22,12 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Text(
+                const Text(
                   'Login',
                   style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
                 ),
 
-                Text(
+                const Text(
                   'Login to your account',
                   style: TextStyle(fontSize: 12),
                 ),
@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.only(left: 30, right: 30),
                     child: ElevatedButton(
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>PageNiyas()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const PageNiyas()));
                       },
                       style: ButtonStyle(
                           shape:
