@@ -11,8 +11,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    var passwordController = TextEditingController();
-    var userNameController = TextEditingController();
+  
     return Scaffold(
       body: SingleChildScrollView(
         child: SafeArea(
@@ -22,6 +21,9 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+
+                Text("Irshad")
+
 
 
 
