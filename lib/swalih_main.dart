@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                     Text("niyas"),
 Text('MInhal'),
-                    Text("niyas"),
+                  
                     Text("irshad"),
                     Text("akbar"),
                     Text("Yadhu"),
