@@ -18,11 +18,12 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Container(
             width: double.infinity,
             height: MediaQuery.of(context).size.height,
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             
               children: [
                 Text('swalih',style: TextStyle(fontSize: 22),),
+                Text('yadhu',style: TextStyle(fontSize: 22),),
 
                     Text("niyas"),
                     Text('MInhal'),
@@ -33,7 +34,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Text("Yadhu"),
                     Text('ADHILKONNOLA'),
                     Text('itZZ meH swAliH'),
-                    
+
+                    Text("rashim")
 
 
 
