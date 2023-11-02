@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             
               children: [
-                Text('niyas',style: TextStyle(fontSize: 22),),
+                Text('irshad',style: TextStyle(fontSize: 22),),
                 Text('yadhu',style: TextStyle(fontSize: 22),),
 
                     Text("niyas"),
