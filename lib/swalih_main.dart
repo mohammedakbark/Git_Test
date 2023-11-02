@@ -25,11 +25,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 Text('dilshad',style: TextStyle(fontSize: 22),),
 
                     Text("niyas"),
-Text('MInhal'),
+                    Text('MInhal'),
                   
                     Text("irshad"),
                     Text("akbar"),
-                    Text('ItZ mEh swAliH')
+                  
 
 
 
